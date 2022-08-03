@@ -1,0 +1,38 @@
+{
+  "name": "@futurert/rescript-koa-router",
+  "type": "module",
+  "private": false,
+  "version": "0.0.1-alpha.1",
+  "description": "koa.js bindings for rescript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node examples/index.bs.js",
+    "build": "rescript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FutureRuntime/rescript-koa.git"
+  },
+  "keywords": [
+    "rescript",
+    "koa",
+    "type",
+    "router"
+  ],
+  "author": "Jinwei Peng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FutureRuntime/rescript-koa/issues"
+  },
+  "homepage": "https://github.com/FutureRuntime/rescript-koa#readme",
+  "devDependencies": {
+    "rescript": "10.0.0-rc.1"
+  },
+  "dependencies": {
+    "@futurert/rescript-koa": "0.0.1-alpha.19",
+    "@koa/router": "^12.0.0",
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0"
+  }
+}

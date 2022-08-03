@@ -1,0 +1,572 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@futurert/rescript-koa-router",
+      "private": false,
+      "version": "0.0.1-alpha.1",
+      "description": "koa.js bindings for rescript.",
+      "main": "index.js",
+      "scripts": {
+        "dev": "node examples/index.bs.js",
+        "build": "rescript && yalc publish"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FutureRuntime/rescript-koa.git"
+      },
+      "keywords": [
+        "rescript",
+        "koa",
+        "type",
+        "router"
+      ],
+      "author": "Jinwei Peng",
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/FutureRuntime/rescript-koa/issues"
+      },
+      "homepage": "https://github.com/FutureRuntime/rescript-koa#readme",
+      "devDependencies": {
+        "rescript": "10.0.0-beta.3"
+      },
+      "dependencies": {
+        "@ryyppy/rescript-promise": "^2.1.0"
+      }
+    },
+    "prefix": "/home/ubuntu/projects/rescript/rescript-koa-router"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/ubuntu/.local/share/pnpm/store/v3",
+    "virtualStoreDir": "/home/ubuntu/projects/rescript/rescript-koa-router/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/ubuntu/projects/rescript/rescript-koa-router",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "7.3.0",
+    "latestVersion": "7.7.1"
+  },
+  "5 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION",
+    "packageMeta": {
+      "name": "rescript",
+      "dist-tags": {
+        "latest": "9.1.4",
+        "next": "10.0.0-rc.1"
+      },
+      "versions": {
+        "0.0.0": {
+          "name": "rescript",
+          "version": "0.0.0",
+          "dist": {
+            "shasum": "d07af9abc432cac00dcf314f9ccc259954589d4e",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-0.0.0.tgz",
+            "integrity": "sha512-P2F87+lmLppvQQFr45gLdNK7gPjIl5jqImG2eL9ARX81r12gyedCMwCcaQLHKt4f4beSscjqFOKAjHHjFNVeoA==",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIErajlNO4RQzU3obyDZu3BXGPRONvw1z/9BhE0NEubtIAiAyM9Q3vQAlxCqfJcrhkshla5QrX9uNqfUNfjh/iLiLkw=="
+              }
+            ]
+          },
+          "deprecated": "Test version"
+        },
+        "9.1.0-dev.1": {
+          "name": "rescript",
+          "version": "9.1.0-dev.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-Gi3SFEHAAMttJKxz15Cp/P47OosPD35lK7fJ1lzb1BYAfLlK0bPwdUVGGY56B+Jihz+oQY/MUZOSBr5uLlRdKQ==",
+            "shasum": "0eab28798ed5be171be5242cdc263c755694080b",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.0-dev.1.tgz",
+            "fileCount": 984,
+            "unpackedSize": 137244833,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgWWSUCRA9TVsSAnZWagAAzDgQAIn+cuonil84wWmYWbGi\nHlVAvRSolf7I9qdfON0G9ICOkagI5pmhZBKlHsBD52UEcjZWJ5sTH9iWW5x/\nqk6LKrxykC8qv4WqVIfeNLVLcjAxYs2L6KeQ0od5txg5ukla/MMdxIkdiKgF\nmHukuavUZWTQczz+cYTOBkhuvEqDSI3ILcR1QdHB1n7+lJl9YEir+veukIXb\n+W/q4IvrKov+4xXUd0CztvhEb1HA4pnK1ikE/uSn899+ZFNxOySls4A2Sjfc\nq57BpsaRbF9nEfdGagwBx8Ud2/blLHtI5PADfBUWtR9n6D+1A+B0AnB7WiAW\nQEcc6218BosCrtabHX6rjGPFZOwrKDaravsBo3WmhrcDoVWKlru/10lJD4PS\nfqUn79cavWlj2tXxrsKLLKAhofUNKkCmODDpjTKT1TTi45BP0zO8GgV1XoXU\njRa50SwA2blbN38gqpNJGTy06JS8+AsxLf2mzqzlnb4Sbe1z13qa8qZFzE7F\ntE85oouL0+smdcEW9qvjp57Kooh/5tXlk+rhjK4UtdsAbbWd7kpsasprrjAt\nOLddKBey5ZPPawFnSsPoFzAIC12agQ30byx4kob1s3quimEsyBnWXFQwwSGA\nSkEkwwujBETYBdNo4mdULVKJBMKvvpdrKzxt48R0yPzW6N3GGKg4fN7iGd6V\ny2ax\r\n=5jde\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCe7JO7BBSvMWiRA37Ld1HLSsM5yxdIwj2PwnOCHXD+pwIhALdiVLJwlSP0y9miC312gjJF4Kz/YDpu6tI2ng6Y4fKl"
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "9.1.0": {
+          "name": "rescript",
+          "version": "9.1.0",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-KHBM5SRk4aauUzeDCT3EB5kjly36Olkv+8jmurVJxJAa6L7Sz6AJXzmgZA0cU65/nvdi3InhpNSuxTsDlPj/3A==",
+            "shasum": "efc1995212a624035a81548e40f042e2d3cadf2b",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.0.tgz",
+            "fileCount": 989,
+            "unpackedSize": 206037415,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgdFVnCRA9TVsSAnZWagAA5wUQAJzDf7VOn03IJJwhiuGG\nle9rnVSmviNuEX91+oXV76bCzrqkVneGfIZ2CLs0Tin8Zq1fmez27nlhnNKo\n6lA0vaavNxYHXVeF54+nSAUdN/nPLCC602gORhcAcdc2m7Qjh6QDnTLQbeqr\nc2gaOxqFw6KivhSQS92Qg2hzwZjpzkzVe8DpFwjZ5cTc5hs/XkRTH7f22paf\nS0mFez/B3lIMW6+wnS6+9IQcwoVuh7c4y+a57oRBYo2Cw/y5UgQ8ldXeq83v\nTTLj2gObT929OlBLQ/s5wwVPEgX0vZfGYJVsE/SYUmRi6pZA0EExCt7Oo8WC\nI8vsrLAlQm65Wwf0ejV5ulDPJP1BAe0C1aH3wMpOH9/gfOHY6DK8jyPlBNbm\nVcYzq+eL305ueLgSaqXHGqZGGL5Nnj3sI9kZ8s/C9T9sBnsvVxCrtaSNUrXX\n+jE5GvMta4XzQayhizImOB0m+M0d6gSXm7ZGX6Zk2CbgWEYy3YIaSZckUdkI\nMg89h0Q49NBvM2TQ/wV/i+KzoxnVYlnflHGS0vxqWqX51l0GYXaRzsEPVi7z\nJEc5Pyxk2Kr97t++2mouhQOUPXHluGlOSuRKHvJzkMLnIqLXuOkCV0Ofzy5C\nxxIEIf24oKRPke4jL84R7prraT63niyojO0NGg5HrI58zQGra1KAmwZ2MpRb\naW6j\r\n=5dJq\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBOwLMvvRIJvzIXYiXWuEZK3gASZSDZEAmYSIQ9VUSKVAiEA2aZ+IBd68vQFZvHr9Z0Us1UUj2D48XxMoPdezQSJsas="
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "9.1.1": {
+          "name": "rescript",
+          "version": "9.1.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-c+zR5aZ5mXDpAx6oyS61t4sUPiq2VXgHigilYSMazDLp1uUGbf2JvgbSfRJFaKAjfsTKcohJyH0vtdihhdZmMA==",
+            "shasum": "de2eb5470a463d7eea493b59537d49bafa6bc5e9",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.1.tgz",
+            "fileCount": 989,
+            "unpackedSize": 206072315,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgeaGrCRA9TVsSAnZWagAAyPsP/1YnP/QI6FAYShNdu9nW\nlonFcOjnaDyDZQLBsvRsAna7ZQixQkUZVVfeXCErtsC21oBiH0QDzOecQcHL\nfiToiIm8iWgTDCyyUk+KtYnsx2tzbYRNq4N5NMgV1olLl0K0LBqvh5lZy8Pr\ngMIhF/dLtEhDguZWpTCiYwLABWE56wAo4PxYUfW9aMxA91ZAdaHUJ3B58dRm\nelDzUPT3c4p6f56wzBN+oM0Yit1YurASVJqpato4sBVvBLt4SEfQZ5FgQZJz\nj3SEBPTZK8wF0bpAVZ49D5e+cIKgrF/a3vkiYYeRAOqzlMKlXyoq2eaPzNkM\no9wl56yMKgXAv4G4ZWiBgfbP63H60WbUscDp603+qslQ66Cz8zwtDiPNR1VR\nGBLTxDnJGiademZsTTWwlLqxupraT6Z7eYxwatt7ard8uhCLxczWymIrXE1n\npgg4W81waBFSKaGzhVhY+tCSuqqSsOIp1x66WWXyBQrhgV9l29OIK2Niry95\nLyxoa0PUnkF7qL5lLlpbYEHB+o9pJoPzXwlaGYEftc8zau1HppIT1oITBWUL\nxp6iv/ofgcRt94jn5yJUrhuXBqXOUuqVLq2ArpdwdRtJhyGN6N4eqasmwIbT\n6aXHUVxe3N9HtWd1woMUxu4QrsuKcTP7JLMQ6qBICtiwXVMJNrONP3k8sTzB\n4HmA\r\n=tde+\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIFb3NT72kA8dqwIP5Fg2poHZDY73RGHqmGmRI04fCAH4AiA1J39EW3G1kkdailvGESU+do/K35dZPN3STCoZ1NQUbA=="
+              }
+            ]
+          },
+          "deprecated": "use 9.1.2 instead",
+          "hasInstallScript": true
+        },
+        "9.1.1-dev.1": {
+          "name": "rescript",
+          "version": "9.1.1-dev.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-HiCZccHgU+dk8knvY/JVG46gJKktw//mCzKTVaAh8f+51X9pUPZBp2pjEdoSXsyqFJ5IDomN4rRE4tskGcIWUA==",
+            "shasum": "6a6dcb98d59ea38286bde7f9c671177bdf898ccd",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.1-dev.1.tgz",
+            "fileCount": 979,
+            "unpackedSize": 136988459,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJggNfBCRA9TVsSAnZWagAAlmcP/j/csDjnp2NXXl9YO7a0\nB5wLj+KDob7KM7K1cYXHQkQjLI2prkBf8H/iA+FruVEgooTttQFYd4fOTWiX\nQgP9btI5lYSM/80oHBURwsyLun8xJDUyb2vyjvuB6v6aeuFgOBkNmrdHF/u7\n4ogQOSkJ7yYgeS985w+6ulDINpt2yFI1/OPdvXZdQLuIblkcrtuo+Dk+LCUy\nvhv1COa51cmsJkrGcNGffPsnc4GfS/Lfa9h4wea/Stle/5BbHwiRscMRPVfg\nrTJCx/A2UXJoIwBWP+TLQIv7MJwKLJlST5YppSxI/R6kALvDqaU6q9eRc/no\nxXnT0dXkou6OVAx8oPBI2PLYTPhJ+YMi3AyGpZMOH8MYPkdzscI7fRxKWmlN\n4RpnwA/6spqu5YntK4KnbLpuRDWQjBQr1Hj9KVECsB1NQKvxd8u8Jw7YCNor\nUI51FpMisiGmSytLGaAgrKphJOlHrpdsWMSNLn5zutiUtB7JFaQscwX3kzkZ\n08cTYiGEu3yDeIpYM5AHfxAQJekXiHFN7kmkj6GodAqbLvbOZByUu9ZtEe1d\nnblsYmSKDz3hcnUtcbiwFyeGD5GhQ6KKx57mOd/j0zIzqZbrAHb7+RmV5Kay\nIxRKhhfL9avkwsyqTlflTKLHXoAz2n/uIeCJzA3uO0Z81XLfySaloHR66tKX\nMTFv\r\n=ed+c\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIGzbCPu8j3ImYQb+Jc0Bux//xI3fDwS4kUg2ZOI4nMruAiAVQlHFUqmwFyUouFO2WDVpoO4zlkaxe2C3VE/l5d4ckw=="
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "9.1.1-dev.2": {
+          "name": "rescript",
+          "version": "9.1.1-dev.2",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-92dum3YonLNYQgNB9vHT3WdGgP7aKhGMmgTOnnkxMZTAuZihzAauBni0Z+EtjHwBvWJOb3c75sRv8RBpm9U0Pg==",
+            "shasum": "1cbad39b8705ad14d879bd7e8491d760079d8e55",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.1-dev.2.tgz",
+            "fileCount": 980,
+            "unpackedSize": 137200245,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJggOhKCRA9TVsSAnZWagAAh30P/jJar90+qcTTcVMBf3AV\nAD+dLdVNoPn88kCoZfA5IHX1B61glw1LuRzUfplRAV6FS7AOLfCwGWjrglN5\nhdFzMekIRNwWhU3t17IDQ/wEhDwtNY7R3R/sWgwdEmbfFZDLiZR6oSMcEoBK\nKK3dvRSQtuNZhfyd8LSMbrvTTXrZ0bW6W7kQ8f3q09z3NPPC+wv5LwL6oscZ\nuAu9EIPYlIxEKg/FJAEgxZf5Rldp5s9VtLNIgM0di87atXODrr+0mt0H+Tx7\nh1n94mtCM1fFqHrnKL1p2bG0HNArWjDNXzi0RlDvcaYeahN1fOd2XjlydMHC\nrxgokl8uq/oxsr+mbSiLgQapKJiCSRO0LpumDeUvJTQrGTzR0v/wgSP7NU2H\nzMUnU1PFuqCY9zrqCqvE/TIDmxwK6g7y03wjck975TE6D65j1dR3spS5jiZc\nWe2fN8hLcIPkxtV0e6/QEnY47z8T5Z4TDvJ7uTTzFZaTFgrW6pJlzliWO2l0\nbTnLFpWodP4vvCRYw7g59hN0aplA4dAFU9VFhIuDspti0/B9c7NRRZdHJV1s\nLFqU2msZPBr40fcJpCdVtvNzzaWhGd2/ybr5/ugeN+exXQQ4lH9AnXGwt9sQ\nrp9xggnTPUSP9mn+y6RI9UIkjCJ4SRgft2AWyHALhZs1057VNVBh0HWm6YPN\nNzy7\r\n=TSiu\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDNLE2HVyNXxin7vibFhnvIB8vg8zhwwTNpvLLgJrt30gIgKyz40FthKV6ZXsKZ/2Wo9dM7ysF9vCgn6R67mpPi6xE="
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "9.1.2": {
+          "name": "rescript",
+          "version": "9.1.2",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-4wHvTDv3nyYnAPJHcg1RGG8z7u3HDiBf6RN3P/dITDv859Qo35aKOzJWQtfBzbAs0EKNafLqei3TnUqiAv6BwQ==",
+            "shasum": "a81f8a735f1a7006233bfc72eb081ca7182a0d79",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.2.tgz",
+            "fileCount": 985,
+            "unpackedSize": 199506021,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJghtMOCRA9TVsSAnZWagAACBwP/RuvS7Gg1rpFli9d1Tbi\nHlBy3/MjJbHuE3WS4MivYGLhZ+HR/IohDVRX43eLS7OaXTT9+qvdhZUqAMgQ\ncPFlboH7+LGWtwHeKr1929dLjtCYwdm2EpOUYWTGNvYI1C4b3X/aGbMajSPV\nG26DomHG0oMUDE4pnYTj4rRSfHUE85rQ/8C7H5paydE427X57c2eBGqfeZWm\nvmgav+WK4gOeL/YittUUNzh1fivKiAO/KQvFF5iapbfl3v0r9CfiteSbYqtz\npzXdpC19bq5+kLWyWKUkk3XH/ePjUanGG0pVTXVQnSfZjXabi89BftkxQPa4\noFsKhd3vRNevtkRrNTgP8ssHG4FgsgF3dbpiq/FaRqLksA9mfVHi/GMqP/O/\nUZBPL2xvd/jCAnTnbkp9+AUhCOEArucrqqRVVwxHhb84kuLTUZVHJM+vzrpV\nkaFzKo62GI3jjHTLsJ0wFzvC1QUoQnh8U1qCSTK++w+MwVfullbyvkxJZSxF\nZxRly88V4CxC3a6q6UoTNBLnVCQH0dQf1MgzzAVYlYwPsl8g7/qf+mjCbdsV\nVwMaTXbJCJpHQ/glACiJEO0yftrsNH6cD7SBAgAk+bm98sraFs9fzvhvdQmH\na2aHTP/WCFx63m+qniiHNKj9qfLrEwKs2tJ5D4ArTCP5Jo35ezyjIrKRpmIq\nStMj\r\n=wi3e\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQCqsfbM4420t+bjcyBixLHY2DRF+HojysURW17FjvIlfAIgXTWaXCtBmjUcHr8K6u3M9PHjKnJR7QctWAsYRQXgziw="
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-nightly.1": {
+          "name": "rescript",
+          "version": "10.0.0-nightly.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-hoFSGfxgQN0Vo4iYilseNcIGM40ztBroYWriOl+TdC8rXb64usbR/TqNYcacbWLn/cIydxwMCQBRA07BY1AoTA==",
+            "shasum": "7ee22506e8b68f40d98e20d76faf78a9058c0cd0",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-nightly.1.tgz",
+            "fileCount": 940,
+            "unpackedSize": 157222899,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgkRNMCRA9TVsSAnZWagAAtxkQAIUA+gysfPlfOpLZe7je\nT0PI/27ecw75ogfblcK16aE4HOfn+R4ALry7LpXUWfg0qkuIq9SW8qnQgirf\nP/5EmN4oXlTfjV6a/Bh7U7y8fgRnmeDI0s0LGvfrQQiV5Uup/ctr3ssLJOnb\nCv2OgvITsZ4c/Hq5uvnqDSHlUcw1iD3qgNQCtXLww0oc2K330cvNWmBDwKEK\nIsqzLgYRcH/naD9+llBbLaOV9OsiuwfleQo1yKMPShA/PcMR6veSp2MEjSAd\nntxjzXkvNUPyVihWXATT5w63U5AwED2mC+X2v4ada4ZMk6Eqq6BLS/UifXKw\nJdNF21K3jGafhNSnsI3jtRLnwN75CZjCZZ1+CpDPntR/QLTKgfekragNM72G\n5SwaKC1uY3TFHt8kCsXI6Gz2+nUUyQswpY5Mh7TdEy5FHVtFUZPcm5tddGLW\nK3YE8YVq0i083h/oxe1DAdlq/a0Y2Nwi2v8JzZP5fu9QGA4b9NaYtvJj7ifO\nBaXnbffuHcjZE2ICTPZRHqUAkfgDcits5c/tUjC9Tx862+VtFQIJKGmcOtnh\nSZAlX9FFktPgv5s/pj5U7pNx4Aev2kF1MWy3a2Uh9PGuyPBPJBP/Uic47kYR\nVoNf6pnQn0rLAfwLV3rJC43crxMAgR9iA5vWWHUkyD2pfElXm76JlsoWKgju\n5JUv\r\n=PUNf\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDwyGXLzfhFstEcfeLmya6zZ54f+4YqBHw5oKS5V8aaywIgZQGpk/ELY5+JzRkwLdwi1WerNGLsaT7tAx7YOWxIhRI="
+              }
+            ]
+          },
+          "deprecated": "Test version no longer supported",
+          "hasInstallScript": true
+        },
+        "9.1.3": {
+          "name": "rescript",
+          "version": "9.1.3",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-TpfW3DakgCJtWbRvAek7cysuikBWarjqt8PrbFg0Rk3O+o4dt0inBdxyZe/+u3LOAWzyKK+2UlqC0xiCBgs6pQ==",
+            "shasum": "1a0f41342acd8dc4e26fd1782d0997b8a7577698",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.3.tgz",
+            "fileCount": 985,
+            "unpackedSize": 199397649,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgs6JNCRA9TVsSAnZWagAA5YIP/090nw4k4bPVs6j94aNU\nUTJRLqJhXEQZ5uFP1+RxKflEQbAPHQF/TXlQeSruKJZw1XCnb1S3QrHEOIf9\njRUgL9Gawv7mT47r96AGC+cQPSJgm2V9JnZ2/LkNoZs0rtvhXRxT3LFMZqWB\ngrxcG+9PNkGXE+lM2eqgC9EgCuhpzdHRFw9/0pwW6qOOUDAQaHhlCEpYRYKv\nmtL4xB/vFdwu4nUIucBrAMGHJogDptOY2HgbLAOezgjjuhZ3c8PVVJ5DFLM/\nqLvGd7l97OSxwTJdytkodnhqZR1fl3bf3QBCuY1F84/U+2dbLKNTAYLsxata\neiW82IQY6+Jefv9NT2e7ac5dfYMU2O3Qu82+2eqVvnY+Xra/F1RG0G5xFw+t\nC2gZGAQA/F+mMxMIyIuVfs7rdEzNgC1MRAFTHefunnHechjTnBwdYgn2IASx\n+X4GbjsgrfApeG5e5JGVOzVLGNGflGuQc9D6m1WXw4GHQYXJo/hYUpCU4cas\nh7xuN6H2sazQbLeebnP3AX5/9Me5mZQWdjRsw5/8V7yiB0vQhH6ND/nBFCu9\nk/b2J9L+p/hRPxX9CT4VTlVjofKiTYgVQb3aq/JqYJjzEXv6DLPlHc0gn1JZ\n9HADBbA5o/0oBdZitYHKf2YZZhWSTn0tY5DoyBsjSoycPB66qb9fPzH7sc2B\neq16\r\n=MVql\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIEn4RQHwsr0UK3AQvtauHt6/1uzozbe91JmKlP1KFAZrAiEAiYAEG/VocB7uG8ErdEpk96HpYthqgHLp2Zq07bpBsaM="
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-m1": {
+          "name": "rescript",
+          "version": "10.0.0-m1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-Bg/yT3eD4lKtU94103pnZc/WDCC5jtYeog0UHdcDq3/wQVVGa3rsFEakbzLV6jW0xoSJyv9cKfMRWFiYTNYKTw==",
+            "shasum": "28596832fb8f685b361224bcb4dc548c5749a9a6",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-m1.tgz",
+            "fileCount": 381,
+            "unpackedSize": 83857830,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJguE/5CRA9TVsSAnZWagAA7UUP/RTsc8GejlunKaY7BlLt\n4GL3nqt9ZkqKAS55OgD8BTaEMCMKtevBhoc8LuT5bWjuB3yC4OL6sMeRAXnp\nv66HWfeaxRhAPEDQ9Cq5R13zfEIG2vet1ku09ZKxchvLIN30bXfenIml5RPM\n9dq1UsjzF4CaFs+PWFM2IImiHgvF1RwPGhmt3aAt/C29X3hy7FRh+V3TQhbk\njbKLL959PbwOiIxPPYG7eI2Ie1p9iPcvCOHwbQSUgDMMibqbUOwMHbHOA+UX\nkGtkJXbetYiUZXiyasdspcKw4MYtLJz8LV2zwogjxOastz2uf392TpIRddkA\nOBuWHZKiFUqJBlMm+hfKa3XP9XWqO3WOjG/fD+4JA71c0gBXZofd2Aohg6wr\ndh1OyMSEFrdZYv7cLnlmeVuTbNmCXrt9jSxO6XRm7qR4uYwEUq7HNE8I9iik\niWjmGZJ9c3Djx9TUkzZQVR00HbYCUx/sfUkNSObDjW9ajhOOkbEQ6SXP8hzB\n8tKyUBkR7jhM1BkCeAL08xZ8lBOS5nkp57C7KS7RrBRFhur/AhFa+dnZ3+sm\nje4sDHVgMYgxA8lm3re9ZwecOYiUnV4rF9QuTxT73ZHThF3dIRcAGKzyZJoa\njwC0JOLGMi5wAdoiE1YLxrWf3x3XFzQl0UTscEmYAhHB4USYA7+qTpadzvxU\njxtc\r\n=ffJS\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQCx5V4nSe5SrC9jvyLUUk9ca8R1uB79ox/ld+vMNJPujQIgLcZuOqQNgT1ZLdhw9J5b+D4FmY+MBbpU5EcdQHd8QEU="
+              }
+            ]
+          },
+          "deprecated": "Test version no longer supported",
+          "hasInstallScript": true
+        },
+        "10.0.0-dev.1": {
+          "name": "rescript",
+          "version": "10.0.0-dev.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsb": "bsb",
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-z/OVw+SimMfszg6bk+4EvATTREV9NLg1DORZqjg745+eqJ89eKKVxBhWHTSJc4PQU0gKFCr5S6D4gahYa8UH8Q==",
+            "shasum": "3a530bb713c9870a659850b03fcd57c48a06626f",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-dev.1.tgz",
+            "fileCount": 932,
+            "unpackedSize": 96759552,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgu2EsCRA9TVsSAnZWagAAc8YP/RsPsRqAvm1ZwOLsdFOr\n1FBCfMByfguRTd/1jP8hC13unMpybpOXAVjKVAgamxBsQsustLozcVbZmTTX\n2NM0L6Or1oZ8a0pD/axErdIzf7ak4mez8MVN547w7aB64THbjyIoxmJLf/NE\nifmH4gO3f4FUxhkde9IDf7Y6oNfOAJ+oksYP8yjNhkqDpZoOU2wTjB3gXJ+5\nqWRE5LGztVnruGW12wAVzHOxA3uDpWlK0hlGRIvogW0y+ozT1whQLQxuPI5H\nkD7PtEsLRJeG1DczT5/Haq5ysQn0LDyOr5kQG3I/WYFEKY/qn0+ZCd+R63ev\n85uTZNyBhhbt0gNJV66fYg3VQ3qvRWP9c5ncVVJhufk8WovDQm4399pyx6z4\ndCYfefmI1k2ELFmooLjElEnsZuB2nH7fbIEHnCtKfPcu4AbFCIENqVTi+sRS\nK79YXzGMliislQwpmvS99/bKr786sxHOZvvG9uUN2/n6JXu8WKPm80ta1Cpy\nWi1SHPZ9LO40fCYXewjPmlrP03yIPC3gyBxmR5zQ7RY7QCs/cBQrL5V4Z/As\nLwn+7fgPgyO60d4LU0MRfGMi6a1z5cfdPVoR3lxIu6XidxbjNILeaHIah+qg\n0kzuaK2Vdz+iE5i11qYVCHFBRGr5FzJ3FhmUnChu2mBCBP2RzFrjYY/H+4VY\nEnPD\r\n=p09E\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIAPjsuh6kRc1vhESrD8SdnN0OqB9lv/3xKNGktyaPkE7AiBOFyGD4BcdVjRTyN0wMN385Za711RhyBizw3KkQtQLTQ=="
+              }
+            ]
+          },
+          "deprecated": "Test version no longer supported",
+          "hasInstallScript": true
+        },
+        "9.1.4": {
+          "name": "rescript",
+          "version": "9.1.4",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-aXANK4IqecJzdnDpJUsU6pxMViCR5ogAxzuqS0mOr8TloMnzAjJFu63fjD6LCkWrKAhlMkFFzQvVQYaAaVkFXw==",
+            "shasum": "1eb126f98d6c16942c0bf0df67c050198e580515",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-9.1.4.tgz",
+            "fileCount": 986,
+            "unpackedSize": 199401560,
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgxd8pCRA9TVsSAnZWagAAlEkP/jJHjp6x/VFOcr3KOF7y\nqR9rZecaxtADbvlKShphUoY2WVL7eIgxXdoAoPzxJO5PmdMOBoXNu8wQW06+\ntClvKeUjrCoNB5YOK1O8YIzdnUutWpQQ4rU7bn82yLdEYVxRtbel7cRZCmL5\nGfxxJl/cYjDQkCLXEOfZ4f4Lxc+8H4ooTWhphnwnfKFhoTUMyCo6PaovUFPz\nE2uYCB+swr7pjz6fYfduTpI0v2KuNcEZ5WpjEbI+6Nos9uonHcjSCx+vly8d\nqv+ykvdmPZIjcoBW/f3s3QayViqfjmmU8d/DJCAC0oqF4RBk1eoDiwaW4U+9\nRNH6aBiQ+BBLXc3502lS2Bs3EUJIZk8uXPqFhM13GPLFgGhjzcJaqSaEO9oI\nAdQryZ8fQ8TpQJyWgKcfOjxRHqzK+Go0DMtjqRIrxqS/mg8YU8kytESGs8zT\nVZi3JduIDCwoS9IAq5JZeW9VCQzuNK0CCUZPNSIT3Nx+mmgP/C7/gSgbngHu\neE228fa9Bd7vZXs08OWsh6JFAORv6Wn+/JQqbVQQHx1ORmLio0J7r6662InQ\nYLodakShIu34o0tgWvtV8E6/RhY3Weabafbh1t+SkhPVPaixGI7ZuPpmNfnf\n2sPjnKSgzbKLHhpuw7z/8BDR8IOMkivGb+xcMtAJJqL5LmfyiENr/qvw54YP\ngiav\r\n=ioqv\r\n-----END PGP SIGNATURE-----\r\n",
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIC336c9NaWR8r75TS+Oxc0DSxutuQMYAoBfrInHR5PvDAiEAkV9AslxbDPmOxjbs5Sf7E56llAEAPRb7hEbFFI23vZ0="
+              }
+            ]
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-alpha.1": {
+          "name": "rescript",
+          "version": "10.0.0-alpha.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0",
+            "prettier": "^2.7.1"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-DbopEAvPkPBWrV2bGWKBiFeMHGRM4zCaUC+WNHlsSBXAeby67BngFO0mB8SIbw6vp9EnlwViJXyspUjra9tCdQ==",
+            "shasum": "d3b9f98d98d5e077c0fa8b04d184e1228d04fb7a",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-alpha.1.tgz",
+            "fileCount": 953,
+            "unpackedSize": 148654538,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIH7UdhcMk4yMy7/3B7J3BdpFn6A+kpQRnmwBnT3MIvUJAiBo2D5Kto5fUFQ43ViQKRt08wbTChfmGd+FYKQToVQyEA=="
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiw+HaACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpZvw//Yw8xVorapiNmmDFIsKJZOhVOwAD2bfnfJa64FjFbLWIo5cRn\r\nT+EBJIP8l9HVKXp9Ei37J25fd6bun7MAs6fgjs2Q+wGBSgvJJs9eLuZrCf7L\r\ncS+eq9p/tFMmnPHD7UZkoHtCzuAQ6XoqvJI2rq2803fnnYn6Ne+uwZyPvDvV\r\nzJ88vyHI/pYMjZ0zm938OHfXdBJgqrW1tm0mmPTBwK19ZeC/MLbbRuAdymBF\r\n0V8I2aOeGXI9rXFHBFKBFGM8VSXsDVf807aaLhkMtW9pJe+y66+Jg50+zijC\r\n+4DqWKgl08/lSHfuhy8RAJyVxA47FI3hcJAtgoLx4wz9F02mBa974OXsqAHN\r\nVJMbLlTbRB7elwdNSGyvH5Nbv3r/kdHAfi/EOe3R2jUVO93S+YLnN2NeTbtd\r\noDwyUIHtGZN62omlnHwLxhZUVkPzd+UhmvvBWilfBBDFba9wRjxpExs83XHT\r\nXpVGeSWO7CxUrVbgr9e38OrmGKop6lAR+aR171NnuVgqkPrEAgkC47fAQv69\r\nsMQd6qeC438fb1ng8GTYBD0AjEvoEzXlp/Pnbz7D2EkWop3cYlFdxI9iWlX2\r\nbkxRrFQ+odOiAp3Rz2jSHC/E6iMucI22aOZtEwX5IvQ4NbjiWh0Nj4Drm7Qx\r\nV9CO6p0Q99pJeLDDAogEJKcp65wxiQ3SYn4=\r\n=nKFT\r\n-----END PGP SIGNATURE-----\r\n"
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-beta.1": {
+          "name": "rescript",
+          "version": "10.0.0-beta.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0",
+            "prettier": "^2.7.1"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-8DSs4R7YW2Z244fWRmKc9M/DvLqjimuAbpKF47/uRANgNpDZ7Blk77htMEUA5g5nu7nyeB0euh9oceGGBt3Bag==",
+            "shasum": "ea4a22808aad90cd0d0e27cc1ce3812885205bdd",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-beta.1.tgz",
+            "fileCount": 953,
+            "unpackedSize": 148655746,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCICjp+Kw3Yi2CbJmlyMoNl10fxhDr+yItMBs7BZ6mZFlYAiBaayqeGw9b5xCltnXZUKnMgWxQBbsUMM32imyDXMHDqg=="
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiyaFSACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo8FRAAgejLDxZO0B662ZMK9+t6XnH7Xkq+N5t6cKhDcjt/DvKNDVY9\r\nhbJPnCdD+XHf/by+AjSWBESpNO9reKYdKgrWBDcaTYN5v/160tX89jcHyPar\r\n3F2mFeKZS3O253gdAP6h8QqmoNeaF5PhglswSgCIsUJ+zk1ptcR3B6iptq9q\r\nJ1U1pRoeoNjQzwWmGYK0d4Bt8513WyYvyjnyFC6OwYaQfzUMcmirrmJcJRcD\r\nwW3vA8g+QKN9/ioCNJkXCZPUcjkS1OYQxn7rkR8SqS4xeGghhRN7U1OdnWI4\r\ni/3E3Ggwc6//7N/XntBrGOqXkdk3Y2HBe3yMrT1h6oEwxPlHku1yjW25oRKt\r\nc7lbxPfY5qUeDQSlbvuQpb91z1WRh3KNYc1Y3T/xEYxwhWD9P0e2VNVLswon\r\naBo5nML/fyhu8ePUmLgpLmJpupZSGaYXeGXkqpamuAEooYh/2wOtcTj5UTtC\r\n13CqE27/sHrdeol/PpNFtw5da56gYPQPcq6qvvYOjAFHs/f67JRFExpbwCzr\r\nda3Rm3jkioQ5pS3GLhFsSdiAu95xMwDpbI0w9riE68Gm4RCZnemHOrwnFRD7\r\n+XRoO+pWQKb9so93OUXW5/aXOdSbZ53UvZg3miK6rOGRF3Bvlu7nORDGqLGK\r\nESGmTZjebhzIkUHRKLd+30FnmBUlfNC3NT4=\r\n=noj7\r\n-----END PGP SIGNATURE-----\r\n"
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-beta.2": {
+          "name": "rescript",
+          "version": "10.0.0-beta.2",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0",
+            "prettier": "^2.7.1"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-LoBsHgrKRVYgpR7vCCmS9o3P2zmT6w2n8s6JFxDN6GGMnrwITrW9ef7ecWeAFf4wGlVifpXDH1a6bZIjL25YQg==",
+            "shasum": "e808deff71ed8091ae192d40a5cfc8422ad67c4b",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-beta.2.tgz",
+            "fileCount": 953,
+            "unpackedSize": 148639464,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCmS8IWpabAMRbovjT41rjqR/tSbmYfatlQv0zGeYHkqgIhAKibREL5kfXBqmLQgJVHFh/AO5eGPx4/FYJAzJjO/M6b"
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiyovoACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmrerw//Y/gV+Vlgu9VSpBZaW1ptcUoLmcRlLHhFjFbUyNxlTDH07bNg\r\n/OFARXlnqr1vAIfBD1ABh5TBjNkbU99AsHSpFBSViKUdGJnciD8J8NP3kKdk\r\n50Zd+dQZp8fQOcp4wslMM3ihUyQHE18bYeW7rAKg0eiAKyUREnFeyvcJNBUJ\r\n4WviPMUesJhpQOTyVMQlo+swaINM3AunzQwOMywf6vBs8j9JXomZGKA2qXgw\r\nDtpttVl9GaabmgrOBfsjkUQNHozqnv4wxyAN/ngymrn9EulS/IWusE271ShW\r\nm2jiOdMBYMqmYaq4Zh3dNg4Cv8gTGX5cEapf6Zlf32Se5reaO6dEN0uuYEZi\r\nzGaUXzmCJP5LKycOqp6nP6V125b9rG4h5R2XQW4sWY4aCz5zB3S6WnY4EprG\r\nwECnGrCbL4guwP2FNcIEzhr+E6W7GGs3B9JP10kTqPUzFVQBuwc9OTgQtgF4\r\nFkdB9J3e2rVR6vXsK1afSOmfVNz+Df49vbXlgSZZkkZnmNfTiapsNsEJHAGC\r\nlneh5QvWBZQyHCzEnlqYm5YvqjkG6G7vxVdfJ087Uz8Grwno/hXX57DAWQoJ\r\nAOEYRKxcWTXqRDD4p+7YTly377r3UA82fbNOwRgQbErDB1BZCDcFWwy95GWq\r\ndgHwCzVxzRJLtUau9jbXsWSid8noQhEs3uo=\r\n=d3TA\r\n-----END PGP SIGNATURE-----\r\n"
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-beta.3": {
+          "name": "rescript",
+          "version": "10.0.0-beta.3",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0",
+            "prettier": "^2.7.1"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-Fik3yIkHY8ajD5M4I2hHOSvUcLzgmNukr8mxlSe4SfAGTY67HoNvDEuONIG0A9kL34urcsMde2F698m2n0JcLg==",
+            "shasum": "efea75ae87905b0b96b4cbb68a5347c7677316e3",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-beta.3.tgz",
+            "fileCount": 958,
+            "unpackedSize": 148643150,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIGUWXp7VjrRoNejnDVLW1Z3KlZoX2lY9CZ9ynxZq/8qoAiEAmhI9rnjD/WyBQEU2/dK6R5/m906PxssMh6xseXHYhYk="
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiz8gXACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqrCA/+JXqz4aDX2i3LFnjZoS2+2GTgGykuN9/76gWTu7TwgoLjlapn\r\nqo3d2rRsWZcDCfu1g7+FA+0Y515Q2Izw9lCX1FNxqGKqpAQqxPOc357Hzeol\r\nIeazLCN5k+X0K2IvbrlhvIAH0096tFoukqlbdTsC/GhiVcWKMUQvAzZKK/v1\r\nDSk6l7byb/AHy0sndmJRlwIPBMV6K5gBG+SOPQXNomS5hOtiQOmPm0QlzQXp\r\nPEZ7TSy/e4DtktHJg7/ugOzzQbtfHu30BFJWGYa6zYcdpt6o2dzTuRY58moB\r\n4Vu0miXnqq4jxchbVPOhC8MDvbo06bOLSBMvtjW6XaHSVkigiyPv5YBN0eFV\r\nYl/WXsUpU4W/nQ6055T4DLK/x2FNTdKeTwmau7Fn/GlWqrX8GaSD0xPj0riQ\r\nl1C7QbYsqUgp3nwIT55sru0c0k4hY1c/eae+POUcIxqrpkXG6uD+6zBEYsx1\r\nhgdzp3kxv9wbR2V2EsnbrhFDTwM10ibSKeUZ8ZRZBhTiHs68Kfr3iZcZtAD0\r\nlUte1Fqo9Mrxj3mNuasANeHqxqzFv3ssj4DNmjH1BdWGGwNtUX4XJgIpyej5\r\nJJNDW35rsddbeHJKxzsQ4S7dU2lu/TNWGSOsMy9bMvjZg3NeaTa3db5yadRP\r\n81ypEyGpAP6FzC+6J+0JH2BF14MP0MwXOCs=\r\n=IEWg\r\n-----END PGP SIGNATURE-----\r\n"
+          },
+          "hasInstallScript": true
+        },
+        "10.0.0-rc.1": {
+          "name": "rescript",
+          "version": "10.0.0-rc.1",
+          "devDependencies": {
+            "mocha": "^7.2.0",
+            "nyc": "^15.0.0",
+            "prettier": "^2.7.1"
+          },
+          "bin": {
+            "bsc": "bsc",
+            "bsrefmt": "bsrefmt",
+            "bstracing": "lib/bstracing",
+            "rescript": "rescript"
+          },
+          "dist": {
+            "integrity": "sha512-NrB+hr1TcK7ZORw/wu6eAd5J4tu6PwbN5rmcx8NUiVYpuaPAXmX/4DpC0gV2j86cU2QGK/DrEIWeZlchWNDKWg==",
+            "shasum": "c9b551e95eb85f00ec6cede114ba5fb3eac940ac",
+            "tarball": "https://registry.npmjs.org/rescript/-/rescript-10.0.0-rc.1.tgz",
+            "fileCount": 957,
+            "unpackedSize": 150561671,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQD7kj5eT6d5G6gkPOVEiBbARfCOTwzFGdGljq8d+P6KtgIgXH799Pty4BRKcMXqxsECAWTrFH8GPZfmN0F3Ta9mxQ4="
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi3AWqACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmp+LhAAnsyjZXMDO226PhWSoHM2gDhImw0g3xzMo7JntLLGks5XHJnf\r\n0G/RFbY8eHzimYyzjzYHT6rFiZSoK9SSXCQtl9qjG0Qz5/t1aOEFNzdkyyHh\r\ndQF/0gvwB+AUa8TFbe66gVapoQUEhKEDLRxjsOFi0Ifmw7qBaZuJeUAafn3p\r\nf7Mp2P8f85iPHJvRFsYcsFi5NiS4bNeK7fF4Rkv97pNlYT28Wmd8F+MWLY9c\r\no7dtYkqAJ+W7keJeb83IyqI8gDqMXBQGZZkyiKa8k7iC9KaoxFkFvNS9NIYD\r\n5+SoZd7lMDva2tty4xrsNJAVXoVWCFtlXwix+pg+hlgwlIBlxA1/Vt+P7sN4\r\n2w/n2VjrIwLXy/4JbCed3vkwYodkvz2ZFX9fk+S7/efEgP4wiRHOs+4RCsHk\r\nIsGFX44QybKgabLAYP4hPEY0PvM89Tm4iDthfJCDKwRiq0VildI5E8aiAmAp\r\n3EIPuLdgCJFZigO/N+49rsnEPS3M/OQC5Bc90HL34it2KBlVGJ28jBlGI3SV\r\nYDJPrYnbwe9SntSY0BDqNEawDaCg11281Y1oPdWR3uvzksuA9E7LwAoZzJyE\r\nTia6ffPw5T0k0Xv+dqQX0VQTe67CGc1z9O4Erk0kHdJHWlS01AmBflxnRF4C\r\noM+hxyQlrOcge7vTUPLNZsI3N2DybVGkh5Y=\r\n=ViNL\r\n-----END PGP SIGNATURE-----\r\n"
+          },
+          "hasInstallScript": true
+        }
+      },
+      "modified": "2022-07-23T14:28:58.189Z",
+      "cachedAt": 1659183402082
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "No matching version found for rescript@10",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION",
+      "stack": "pnpm: No matching version found for rescript@10\n    at resolveNpm (/snapshot/dist/pnpm.cjs)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async Object.resolve (/snapshot/dist/pnpm.cjs)\n    at async run (/snapshot/dist/pnpm.cjs)"
+    }
+  }
+}
