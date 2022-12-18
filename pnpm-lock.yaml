@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@futurert/rescript-koa': 0.0.1-beta.2
+  '@futurert/rescript-koa': 0.0.1-beta.3
   '@koa/router': ^12.0.0
   koa: ^2.14.1
   rescript: 10.1.0
 
 dependencies:
-  '@futurert/rescript-koa': 0.0.1-beta.2
+  '@futurert/rescript-koa': 0.0.1-beta.3
 
 devDependencies:
   '@koa/router': 12.0.0
@@ -16,8 +16,8 @@ devDependencies:
 
 packages:
 
-  /@futurert/rescript-koa/0.0.1-beta.2:
-    resolution: {integrity: sha512-cCW9yKxdym5gWZ86Py+XR+QkM9WRDMM4pNEsF/EYIWapNozdREHzmA1iI8VXbilC8a87jDCaOkZeZiWJvT2srw==}
+  /@futurert/rescript-koa/0.0.1-beta.3:
+    resolution: {integrity: sha512-ClTpAzPMTsGknhkPadwD8rdEndWgDynxko0aDhVWQQsqZrHnUX0nY9qBDokgZ6MddPUVs30NGsLw2ZJVflSK4g==}
     dependencies:
       '@ryyppy/rescript-promise': 2.1.0
     dev: false

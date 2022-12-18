@@ -24,7 +24,7 @@ rescript bindings for koa
 
 ```Rescript
 open Router
-open Koa
+open! Koa
 
 let app = Koa.koa()
 

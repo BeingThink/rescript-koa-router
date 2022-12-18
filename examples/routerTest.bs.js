@@ -7,7 +7,7 @@ var app = new Koa();
 
 var router = new KoaRouter(undefined);
 
-router.get("/login", (function (context, next) {
+router.get("/login", (async function (context, param) {
         context.body = "hello";
       }));
 

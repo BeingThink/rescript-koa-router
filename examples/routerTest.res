@@ -1,11 +1,10 @@
 open Router
-open Koa
-
+open! Koa
 let app = Koa.koa()
 
 let router = Router.router(None)
 
-router->get("/login", (context, next) => {
+router->get("/login", async (context, _) => {
     context.body = "hello"
 })
 
